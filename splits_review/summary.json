@@ -1,0 +1,349 @@
+{
+ "TeaDisease_grouped": {
+  "train": {
+   "black_rot": 21,
+   "healthy": 96,
+   "leaf_rust": 463,
+   "red_spider": 139,
+   "tea_mosquito_bug": 1115
+  },
+  "val": {
+   "black_rot": 5,
+   "healthy": 20,
+   "leaf_rust": 99,
+   "red_spider": 25,
+   "tea_mosquito_bug": 239
+  },
+  "test": {
+   "black_rot": 4,
+   "healthy": 20,
+   "leaf_rust": 99,
+   "red_spider": 31,
+   "tea_mosquito_bug": 239
+  }
+ },
+ "TeaDisease_p1": {
+  "train": {
+   "black_rot": 16,
+   "healthy": 105,
+   "leaf_rust": 466,
+   "red_spider": 139,
+   "tea_mosquito_bug": 1076
+  },
+  "val": {
+   "black_rot": 11,
+   "healthy": 1,
+   "leaf_rust": 107,
+   "red_spider": 43,
+   "tea_mosquito_bug": 228
+  },
+  "test": {
+   "black_rot": 3,
+   "healthy": 30,
+   "leaf_rust": 88,
+   "red_spider": 13,
+   "tea_mosquito_bug": 289
+  },
+  "sessions": {
+   "black_rot": {
+    "sessions": 3,
+    "train": 1,
+    "val": 1,
+    "test": 1
+   },
+   "healthy": {
+    "sessions": 5,
+    "train": 2,
+    "val": 1,
+    "test": 2
+   },
+   "leaf_rust": {
+    "sessions": 9,
+    "train": 1,
+    "val": 3,
+    "test": 5
+   },
+   "red_spider": {
+    "sessions": 5,
+    "train": 3,
+    "val": 1,
+    "test": 1
+   },
+   "tea_mosquito_bug": {
+    "sessions": 14,
+    "train": 5,
+    "val": 5,
+    "test": 4
+   }
+  }
+ },
+ "TeaDisease_p2": {
+  "train": {
+   "black_rot": 16,
+   "healthy": 103,
+   "leaf_rust": 466,
+   "red_spider": 147,
+   "tea_mosquito_bug": 1091
+  },
+  "val": {
+   "black_rot": 3,
+   "healthy": 31,
+   "leaf_rust": 100,
+   "red_spider": 13,
+   "tea_mosquito_bug": 286
+  },
+  "test": {
+   "black_rot": 11,
+   "healthy": 2,
+   "leaf_rust": 95,
+   "red_spider": 35,
+   "tea_mosquito_bug": 216
+  },
+  "sessions": {
+   "black_rot": {
+    "sessions": 3,
+    "train": 1,
+    "val": 1,
+    "test": 1
+   },
+   "healthy": {
+    "sessions": 5,
+    "train": 3,
+    "val": 1,
+    "test": 1
+   },
+   "leaf_rust": {
+    "sessions": 9,
+    "train": 1,
+    "val": 5,
+    "test": 3
+   },
+   "red_spider": {
+    "sessions": 5,
+    "train": 3,
+    "val": 1,
+    "test": 1
+   },
+   "tea_mosquito_bug": {
+    "sessions": 14,
+    "train": 5,
+    "val": 6,
+    "test": 3
+   }
+  }
+ },
+ "TeaDisease_p3": {
+  "train": {
+   "black_rot": 16,
+   "healthy": 104,
+   "leaf_rust": 466,
+   "red_spider": 110,
+   "tea_mosquito_bug": 1082
+  },
+  "val": {
+   "black_rot": 3,
+   "healthy": 31,
+   "leaf_rust": 92,
+   "red_spider": 35,
+   "tea_mosquito_bug": 295
+  },
+  "test": {
+   "black_rot": 11,
+   "healthy": 1,
+   "leaf_rust": 103,
+   "red_spider": 50,
+   "tea_mosquito_bug": 216
+  },
+  "sessions": {
+   "black_rot": {
+    "sessions": 3,
+    "train": 1,
+    "val": 1,
+    "test": 1
+   },
+   "healthy": {
+    "sessions": 5,
+    "train": 3,
+    "val": 1,
+    "test": 1
+   },
+   "leaf_rust": {
+    "sessions": 9,
+    "train": 1,
+    "val": 5,
+    "test": 3
+   },
+   "red_spider": {
+    "sessions": 5,
+    "train": 3,
+    "val": 1,
+    "test": 1
+   },
+   "tea_mosquito_bug": {
+    "sessions": 14,
+    "train": 7,
+    "val": 6,
+    "test": 1
+   }
+  }
+ },
+ "TeaDisease_gap30": {
+  "train": {
+   "black_rot": 16,
+   "healthy": 75,
+   "leaf_rust": 466,
+   "red_spider": 106,
+   "tea_mosquito_bug": 1127
+  },
+  "val": {
+   "black_rot": 11,
+   "healthy": 28,
+   "leaf_rust": 113,
+   "red_spider": 35,
+   "tea_mosquito_bug": 231
+  },
+  "test": {
+   "black_rot": 3,
+   "healthy": 33,
+   "leaf_rust": 82,
+   "red_spider": 54,
+   "tea_mosquito_bug": 235
+  },
+  "sessions": {
+   "black_rot": {
+    "sessions": 3,
+    "train": 1,
+    "val": 1,
+    "test": 1
+   },
+   "healthy": {
+    "sessions": 5,
+    "train": 2,
+    "val": 1,
+    "test": 2
+   },
+   "leaf_rust": {
+    "sessions": 7,
+    "train": 1,
+    "val": 3,
+    "test": 3
+   },
+   "red_spider": {
+    "sessions": 4,
+    "train": 2,
+    "val": 1,
+    "test": 1
+   },
+   "tea_mosquito_bug": {
+    "sessions": 11,
+    "train": 6,
+    "val": 2,
+    "test": 3
+   }
+  }
+ },
+ "TeaDisease_f25": {
+  "train": {
+   "black_rot": 8,
+   "healthy": 24,
+   "leaf_rust": 118,
+   "red_spider": 30,
+   "tea_mosquito_bug": 262
+  },
+  "val": {
+   "black_rot": 3,
+   "healthy": 28,
+   "leaf_rust": 97,
+   "red_spider": 35,
+   "tea_mosquito_bug": 239
+  },
+  "test": {
+   "black_rot": 11,
+   "healthy": 31,
+   "leaf_rust": 98,
+   "red_spider": 43,
+   "tea_mosquito_bug": 310
+  }
+ },
+ "TeaDisease_f50": {
+  "train": {
+   "black_rot": 8,
+   "healthy": 48,
+   "leaf_rust": 233,
+   "red_spider": 59,
+   "tea_mosquito_bug": 522
+  },
+  "val": {
+   "black_rot": 3,
+   "healthy": 28,
+   "leaf_rust": 97,
+   "red_spider": 35,
+   "tea_mosquito_bug": 239
+  },
+  "test": {
+   "black_rot": 11,
+   "healthy": 31,
+   "leaf_rust": 98,
+   "red_spider": 43,
+   "tea_mosquito_bug": 310
+  }
+ },
+ "TeaLeafBD_eq": {
+  "train": {
+   "algal_leaf_spot": 143,
+   "brown_blight": 174,
+   "gray_blight": 346,
+   "green_mirid_bug": 438,
+   "healthy": 77,
+   "helopeltis": 425,
+   "red_spider": 117
+  },
+  "val": {
+   "algal_leaf_spot": 63,
+   "brown_blight": 77,
+   "gray_blight": 152,
+   "green_mirid_bug": 193,
+   "healthy": 140,
+   "helopeltis": 91,
+   "red_spider": 78
+  },
+  "test": {
+   "algal_leaf_spot": 63,
+   "brown_blight": 76,
+   "gray_blight": 152,
+   "green_mirid_bug": 192,
+   "healthy": 140,
+   "helopeltis": 91,
+   "red_spider": 77
+  }
+ },
+ "TeaLeafBD_ratio": {
+  "train": {
+   "algal_leaf_spot": 49,
+   "brown_blight": 49,
+   "gray_blight": 49,
+   "green_mirid_bug": 49,
+   "healthy": 31,
+   "helopeltis": 425,
+   "red_spider": 48
+  },
+  "val": {
+   "algal_leaf_spot": 63,
+   "brown_blight": 77,
+   "gray_blight": 152,
+   "green_mirid_bug": 193,
+   "healthy": 140,
+   "helopeltis": 91,
+   "red_spider": 78
+  },
+  "test": {
+   "algal_leaf_spot": 63,
+   "brown_blight": 76,
+   "gray_blight": 152,
+   "green_mirid_bug": 192,
+   "healthy": 140,
+   "helopeltis": 91,
+   "red_spider": 77
+  }
+ }
+}

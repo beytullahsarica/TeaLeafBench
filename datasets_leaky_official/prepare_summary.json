@@ -1,0 +1,112 @@
+{
+ "args": {
+  "src": "datasets",
+  "out": "datasets_leaky_official_v2",
+  "datasets": null,
+  "ratios": [
+   0.7,
+   0.15,
+   0.15
+  ],
+  "seed": 42,
+  "keep_official_teadisease": false,
+  "min_class_size": 30,
+  "hash_dist": 14,
+  "dup_thr": 6.0,
+  "group_thr": 9.0,
+  "max_side": 0,
+  "workers": 7,
+  "dry_run": false,
+  "split_mode": "official",
+  "no_capture_order": false,
+  "burst_gap": 2,
+  "session_gap": 12
+ },
+ "datasets": {
+  "TeaDisease": {
+   "classes": [
+    "black_rot",
+    "healthy",
+    "leaf_rust",
+    "red_spider",
+    "tea_mosquito_bug"
+   ],
+   "n": 2615,
+   "counts": {
+    "train/tea_mosquito_bug": 1212,
+    "train/red_spider": 149,
+    "train/healthy": 99,
+    "train/black_rot": 22,
+    "train/leaf_rust": 486,
+    "val/tea_mosquito_bug": 154,
+    "val/red_spider": 14,
+    "val/healthy": 19,
+    "val/leaf_rust": 66,
+    "val/black_rot": 2,
+    "test/tea_mosquito_bug": 227,
+    "test/red_spider": 32,
+    "test/healthy": 18,
+    "test/black_rot": 6,
+    "test/leaf_rust": 109
+   },
+   "stats": {
+    "n_files": 9591,
+    "n_final": 2615,
+    "removed": {
+     "roboflow copy": 6876,
+     "several classes": 1,
+     "class has": 3,
+     "shooting session": 96
+    },
+    "resplit": false,
+    "split_mode": "official",
+    "test_with_train_duplicate": 161,
+    "val_with_train_duplicate": 77,
+    "n_official_groups_across_splits": 158,
+    "n_near_dup_groups": 183,
+    "n_near_dup_images": 544,
+    "n_same_split_groups": 297,
+    "n_same_split_images": 996,
+    "n_leak_groups_official": 158,
+    "small_classes": {
+     "brown_blight": 2,
+     "disease": 1
+    },
+    "capture_order": false,
+    "adjacent_frames_across_splits": 1012,
+    "official_adjacent": 1053,
+    "adjacent_frames_train_heldout": 931,
+    "min_frame_distance_train_heldout": 1,
+    "sessions": [],
+    "excluded_classes": [],
+    "per_class": {
+     "black_rot": [
+      22,
+      2,
+      6
+     ],
+     "healthy": [
+      99,
+      19,
+      18
+     ],
+     "leaf_rust": [
+      486,
+      66,
+      109
+     ],
+     "red_spider": [
+      149,
+      14,
+      32
+     ],
+     "tea_mosquito_bug": [
+      1212,
+      154,
+      227
+     ]
+    }
+   }
+  }
+ }
+}

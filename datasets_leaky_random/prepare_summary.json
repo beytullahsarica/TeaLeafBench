@@ -1,0 +1,317 @@
+{
+ "args": {
+  "src": "datasets",
+  "out": "datasets_leaky_random_v2",
+  "datasets": null,
+  "ratios": [
+   0.7,
+   0.15,
+   0.15
+  ],
+  "seed": 42,
+  "keep_official_teadisease": false,
+  "min_class_size": 30,
+  "hash_dist": 14,
+  "dup_thr": 6.0,
+  "group_thr": 9.0,
+  "max_side": 0,
+  "workers": 7,
+  "dry_run": false,
+  "split_mode": "random",
+  "no_capture_order": false,
+  "burst_gap": 2,
+  "session_gap": 12
+ },
+ "datasets": {
+  "TeaLeafBD": {
+   "classes": [
+    "algal_leaf_spot",
+    "brown_blight",
+    "gray_blight",
+    "green_mirid_bug",
+    "healthy",
+    "helopeltis",
+    "red_spider"
+   ],
+   "n": 5275,
+   "counts": {
+    "train/algal_leaf_spot": 292,
+    "val/algal_leaf_spot": 63,
+    "test/algal_leaf_spot": 63,
+    "train/brown_blight": 355,
+    "test/brown_blight": 76,
+    "val/brown_blight": 77,
+    "train/gray_blight": 708,
+    "val/gray_blight": 152,
+    "test/gray_blight": 152,
+    "train/helopeltis": 425,
+    "val/helopeltis": 91,
+    "test/helopeltis": 91,
+    "train/red_spider": 360,
+    "test/red_spider": 77,
+    "val/red_spider": 78,
+    "val/green_mirid_bug": 193,
+    "train/green_mirid_bug": 896,
+    "test/green_mirid_bug": 192,
+    "train/healthy": 654,
+    "val/healthy": 140,
+    "test/healthy": 140
+   },
+   "stats": {
+    "n_files": 5278,
+    "n_final": 5275,
+    "removed": {
+     "conflicting labels": 2,
+     "exact duplicate": 1
+    },
+    "resplit": true,
+    "split_mode": "random",
+    "test_with_train_duplicate": 58,
+    "val_with_train_duplicate": 43,
+    "n_official_groups_across_splits": 0,
+    "n_near_dup_groups": 75,
+    "n_near_dup_images": 155,
+    "n_same_split_groups": 160,
+    "n_same_split_images": 380,
+    "n_leak_groups_official": 0,
+    "small_classes": {},
+    "capture_order": false,
+    "adjacent_frames_across_splits": null,
+    "official_adjacent": null,
+    "adjacent_frames_train_heldout": null,
+    "min_frame_distance_train_heldout": null,
+    "sessions": [],
+    "excluded_classes": [],
+    "per_class": {
+     "algal_leaf_spot": [
+      292,
+      63,
+      63
+     ],
+     "brown_blight": [
+      355,
+      77,
+      76
+     ],
+     "gray_blight": [
+      708,
+      152,
+      152
+     ],
+     "green_mirid_bug": [
+      896,
+      193,
+      192
+     ],
+     "healthy": [
+      654,
+      140,
+      140
+     ],
+     "helopeltis": [
+      425,
+      91,
+      91
+     ],
+     "red_spider": [
+      360,
+      78,
+      77
+     ]
+    }
+   }
+  },
+  "TeaSickness": {
+   "classes": [
+    "algal_leaf_spot",
+    "anthracnose",
+    "bird_eye_spot",
+    "brown_blight",
+    "gray_blight",
+    "healthy",
+    "red_leaf_spot",
+    "white_spot"
+   ],
+   "n": 881,
+   "counts": {
+    "train/anthracnose": 69,
+    "val/anthracnose": 15,
+    "test/anthracnose": 15,
+    "train/algal_leaf_spot": 79,
+    "val/algal_leaf_spot": 17,
+    "test/algal_leaf_spot": 17,
+    "val/bird_eye_spot": 15,
+    "train/bird_eye_spot": 69,
+    "test/bird_eye_spot": 15,
+    "train/brown_blight": 79,
+    "test/brown_blight": 17,
+    "val/brown_blight": 17,
+    "val/gray_blight": 15,
+    "train/gray_blight": 68,
+    "test/gray_blight": 15,
+    "train/healthy": 52,
+    "test/healthy": 11,
+    "val/healthy": 11,
+    "train/red_leaf_spot": 99,
+    "test/red_leaf_spot": 22,
+    "val/red_leaf_spot": 22,
+    "val/white_spot": 22,
+    "train/white_spot": 98,
+    "test/white_spot": 22
+   },
+   "stats": {
+    "n_files": 885,
+    "n_final": 881,
+    "removed": {
+     "conflicting labels": 2,
+     "exact duplicate": 2
+    },
+    "resplit": true,
+    "split_mode": "random",
+    "test_with_train_duplicate": 9,
+    "val_with_train_duplicate": 6,
+    "n_official_groups_across_splits": 0,
+    "n_near_dup_groups": 10,
+    "n_near_dup_images": 28,
+    "n_same_split_groups": 18,
+    "n_same_split_images": 46,
+    "n_leak_groups_official": 0,
+    "small_classes": {},
+    "capture_order": false,
+    "adjacent_frames_across_splits": null,
+    "official_adjacent": null,
+    "adjacent_frames_train_heldout": null,
+    "min_frame_distance_train_heldout": null,
+    "sessions": [],
+    "excluded_classes": [],
+    "per_class": {
+     "algal_leaf_spot": [
+      79,
+      17,
+      17
+     ],
+     "anthracnose": [
+      69,
+      15,
+      15
+     ],
+     "bird_eye_spot": [
+      69,
+      15,
+      15
+     ],
+     "brown_blight": [
+      79,
+      17,
+      17
+     ],
+     "gray_blight": [
+      68,
+      15,
+      15
+     ],
+     "healthy": [
+      52,
+      11,
+      11
+     ],
+     "red_leaf_spot": [
+      99,
+      22,
+      22
+     ],
+     "white_spot": [
+      98,
+      22,
+      22
+     ]
+    }
+   }
+  },
+  "TeaDisease": {
+   "classes": [
+    "black_rot",
+    "healthy",
+    "leaf_rust",
+    "red_spider",
+    "tea_mosquito_bug"
+   ],
+   "n": 2615,
+   "counts": {
+    "test/tea_mosquito_bug": 239,
+    "train/tea_mosquito_bug": 1115,
+    "train/red_spider": 136,
+    "test/red_spider": 29,
+    "val/red_spider": 30,
+    "val/tea_mosquito_bug": 239,
+    "train/healthy": 94,
+    "val/healthy": 21,
+    "test/healthy": 21,
+    "train/black_rot": 20,
+    "train/leaf_rust": 463,
+    "val/leaf_rust": 99,
+    "test/leaf_rust": 99,
+    "test/black_rot": 5,
+    "val/black_rot": 5
+   },
+   "stats": {
+    "n_files": 9591,
+    "n_final": 2615,
+    "removed": {
+     "roboflow copy": 6876,
+     "several classes": 1,
+     "class has": 3,
+     "shooting session": 96
+    },
+    "resplit": true,
+    "split_mode": "random",
+    "test_with_train_duplicate": 123,
+    "val_with_train_duplicate": 126,
+    "n_official_groups_across_splits": 0,
+    "n_near_dup_groups": 183,
+    "n_near_dup_images": 544,
+    "n_same_split_groups": 297,
+    "n_same_split_images": 996,
+    "n_leak_groups_official": 0,
+    "small_classes": {
+     "brown_blight": 2,
+     "disease": 1
+    },
+    "capture_order": false,
+    "adjacent_frames_across_splits": 1192,
+    "official_adjacent": 1053,
+    "adjacent_frames_train_heldout": 1073,
+    "min_frame_distance_train_heldout": 1,
+    "sessions": [],
+    "excluded_classes": [],
+    "per_class": {
+     "black_rot": [
+      20,
+      5,
+      5
+     ],
+     "healthy": [
+      94,
+      21,
+      21
+     ],
+     "leaf_rust": [
+      463,
+      99,
+      99
+     ],
+     "red_spider": [
+      136,
+      30,
+      29
+     ],
+     "tea_mosquito_bug": [
+      1115,
+      239,
+      239
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+source,split,class,reason
+Anthracnose/IMG_20220503_150405.jpg,,anthracnose,duplicate group with conflicting labels: anthracnose / bird_eye_spot
+bird eye spot/IMG_20220503_150405.jpg,,bird_eye_spot,duplicate group with conflicting labels: anthracnose / bird_eye_spot
+gray light/IMG_20220503_142632.jpg,,gray_blight,exact duplicate of gray light/IMG_20220503_142632 - Copy.jpg
+gray light/IMG_20220503_142658.jpg,,gray_blight,exact duplicate of gray light/IMG_20220503_142658 - Copy.jpg
